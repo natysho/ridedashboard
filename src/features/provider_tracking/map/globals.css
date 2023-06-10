@@ -1,0 +1,75 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.controls {
+  width: 20%;
+  padding: 1rem;
+  background: #14161a;
+  color: #fff;
+}
+
+.controls input {
+  border: none;
+}
+
+.map-container {
+  width: 100%;
+  height: 580px;
+  margin-top: 0;
+  margin-bottom: 4px;
+  /* margin-left: 2px; */
+}
+
+.map {
+  width: 80%;
+  height: 100vh;
+}
+
+.highlight {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.combobox-input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}

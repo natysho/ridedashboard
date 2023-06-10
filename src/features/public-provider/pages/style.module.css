@@ -1,0 +1,17 @@
+.listContainer{
+    height: 'min-content'
+}
+.listKey{
+    background-color: #e2e8f0;
+    border: '0 solid #e2e8f0';
+    border-bottom: dashed;
+    border-width: thin;
+
+} 
+
+.list{
+    border: '0 solid #e2e8f0';
+    border-bottom: dashed;
+    border-width: thin;
+
+} 
